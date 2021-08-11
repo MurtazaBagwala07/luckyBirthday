@@ -1,0 +1,109 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: wheat;
+}
+
+label {
+  display: block;
+  font-size: 1.5rem;
+  color: #b91c1c;
+}
+input {
+  display: block;
+  margin: 1rem auto;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+}
+
+.notice {
+  display: block;
+  margin: auto;
+  padding: 1rem;
+}
+
+#alertBox {
+  width: fit-content;
+  padding: 0 1rem;
+  margin: 30rem auto 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  border: 1px solid #b91c1c;
+  box-shadow: 0px 0px 10px 2px var(--secondary-color);
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  margin: auto;
+  font-size: 1.5rem;
+}
+li {
+  margin: 0.5rem;
+  margin: auto;
+  list-style-type: none;
+  margin-top: 1rem;
+}
+
+#alertBox {
+  margin-bottom: 2rem;
+}
+
+.footer {
+  margin-top: 2rem;
+  height: 3rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: pink;
+}
+
+a {
+  color: black;
+}
+
+h1 {
+  color: red;
+}
+
+button {
+  width: 6rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #b91c1c;
+  border-radius: 2rem;
+}
+button:hover {
+  background-color: #b91c1c;
+  color: white;
+  border-radius: 2rem;
+}
+
+input:hover {
+  background-color: pink;
+}
+
+a {
+  color: #b91c1c;
+  font-size: 1.5rem;
+}
+
+.output {
+  margin: auto;
+  width: 60rem;
+  height: auto;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 1.5rem auto;
+  color: #b91c1c;
+}

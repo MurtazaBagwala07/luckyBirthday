@@ -100,7 +100,10 @@ export default function App() {
         <div className="footer">
           <ul className="list">
             <li className="ft">
-              <a target="_blank" href="https://www.linkedin.com">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/murtaza-bagwala-2850341bb"
+              >
                 Linked in
               </a>
             </li>
@@ -110,12 +113,12 @@ export default function App() {
               </a>
             </li>
             <li className="ft">
-              <a target="_blank" href="https://github.com">
+              <a target="_blank" href="https://github.com/MurtazaBagwala07/">
                 Github
               </a>
             </li>
             <li className="ft">
-              <a target="_blank" href="www.google.com">
+              <a target="_blank" href="https://portofolio-murtaza.netlify.app/">
                 Portfolio
               </a>
             </li>
